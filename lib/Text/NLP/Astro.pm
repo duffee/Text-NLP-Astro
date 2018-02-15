@@ -10,12 +10,19 @@ use warnings;
     use strict;         # important!
     use Text::NLP::Astro;
 
-    sample code goes here (once I write some)
+    # to augment normal PoS taggers
+    @tokens = word_tokenize($text);
+    @tagged_tokens = pos_tag(@tokens);
+
+    # or to identify Noun Phrases as object, telescope, etc
+    @concepts = extract_concepts($text);
 
 =head1 DESCRIPTION
 
 I want to be able to tokenize, normalize text in Astrophysics with a view
 to adding a Part of Speech tagger.
+
+C<pos_tag> should return an array ref with the token and its tag C< ['PAMELA', 'N'] >
 
 =cut
 
