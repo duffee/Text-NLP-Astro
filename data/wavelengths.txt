@@ -1,0 +1,7 @@
+ultraviolet
+UV
+radio
+X-ray
+infrared
+microwave
+Far-Infrared
