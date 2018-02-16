@@ -31,6 +31,17 @@ C<pos_tag> should return an array ref with the token and its tag C< ['PAMELA', '
 
 =head1 SEE ALSO
 
+https://arxiv.org/pdf/1801.01021.pdf
+
+L<http://astrothesaurus.org/> UAT
+
+You would think that the ADS has already got this covered, but there's not a lot
+obviously available.  Take a look at 
+B<Astronomical Subject Keywords>
+B<SKOS>
+B<Unified Astronomy Thesarus> takes over from PACS
+SIMBAD ontology (Derriere et al. 2010)
+
 =head1 REPOSITORY
 
 * L<https://github.com/duffee/Astro-Constants>
